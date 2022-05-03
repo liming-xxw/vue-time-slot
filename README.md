@@ -1,6 +1,6 @@
 # VueTimeSlot 
 
-VueTimeSlot 是一项预约时间组件，design设计风格，时间轴为早7-晚11，可自由选择，并且非常方便，将返回一个时间数组
+VueTimeSlot 是一项预约时间组件，concise design设计风格，时间轴为早7-晚11，可自由选择，并且非常方便，将返回一个时间数组
 
 
 
@@ -16,8 +16,25 @@ VueTimeSlot 是一项预约时间组件，design设计风格，时间轴为早7-
 
 > 在页面中引入
 >
-> import "vue3-time-slot/style.css";
->
 > import VueTimeSlot from "vue3-time-slot";
 >
 > 即可
+
+如果是在ts项目中使用，报错的话，暂时没用设置声明文件,可以暂时在你的声明文件中，写下下面这一句声明
+
+> declare module 'vue3-time-slot'
+
+# Apis
+
+### Props
+
+### Event
+
+**name** | **params** | **usage** | **description** |
+
+:---: | :---: | :---: | :---: |
+
+ok  | v:Date[] | @ok="ok" | ok| 
+
+cancel  | event | @cancel="cancel" | cancel|
+
