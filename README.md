@@ -30,11 +30,8 @@ VueTimeSlot 是一项预约时间组件，concise design设计风格，时间轴
 
 ### Event
 
-**name** | **params** | **usage** | **description** |
-
-:---: | :---: | :---: | :---: |
-
-ok  | v:Date[] | @ok="ok" | ok| 
-
-cancel  | event | @cancel="cancel" | cancel|
+| **name** | **params** | **usage**        | **description** |
+| -------- | ---------- | ---------------- | --------------- |
+| ok       | v:Date[]   | @ok="ok"         | ok              |
+| cancel   | event      | @cancel="cancel" | cancel          |
 
